@@ -1,12 +1,12 @@
 public class Kodune1{
 	
-	public static double to_eur(double BNB){
-		return BNB*0.0027373;
+	public static double to_BNB(double euro){
+		return euro*364.7;
 	}
 	
 	public static void main(String[] args){
-		double BNB=Double.parseDouble(args[0]);
-		double convert=to_eur(BNB);
+		double euro=Double.parseDouble(args[0]);
+		double convert=to_BNB(euro);
 		System.out.println(convert);	
 	}
 	
