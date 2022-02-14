@@ -1,7 +1,7 @@
 public class Kodune1{
 	
 	public static double to_BNB(double euro){
-		return euro*364.7;
+		return euro*347.1;
 	}
 	
 	public static void main(String[] args){
