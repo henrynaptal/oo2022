@@ -1,0 +1,3 @@
+interface Lyaktav{
+    void lykka();
+}
